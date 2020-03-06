@@ -2,9 +2,7 @@ import React from 'react';
 
 function FilmPoster(props) {
     return (
-        <div>
-            
-        </div>
+        <img src={props.src} alt={props.alt}/>
     );
 }
 

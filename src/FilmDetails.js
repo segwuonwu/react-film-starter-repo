@@ -1,12 +1,12 @@
 import React from 'react';
-import FilmPoster from './FilmPoster'
 
 
 function FilmDetails(props) {
     return (
-        <div>
-            
+        <div className="film-details">
+            <h1 className="section-title">DETAILS</h1>
         </div>
+        
     );
 }
 
